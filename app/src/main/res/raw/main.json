@@ -1,0 +1,31 @@
+{
+    "id": 100,
+    "name": "main",
+    "vertical_navigation": {
+        "1": {
+            "id": 100,
+            "name": "main",
+            "uri": "main.json"
+        },
+        "2": {
+            "id": 200,
+            "name": "list of items",
+            "uri": "item_list.json"
+        },
+        "3": {
+            "id": 300,
+            "name": "image",
+            "uri": "image.json"
+        }
+    },
+    "context_menu_items": [],
+    "isComponent": false,
+    "parent": "top",
+    "required_components_by_id": [],
+    "layout": {
+        "template_id": "template_0",
+        "title_text": "Welcome to the Main Page",
+        "paragraph_text": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+        "next_button_destination_id": "200"
+    }
+}
